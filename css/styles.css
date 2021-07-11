@@ -1,0 +1,182 @@
+body{
+    color: #fff;
+}
+
+
+
+
+
+/*                                                  -title-section */
+#title {
+    background-color: #ff4c68;
+    font-family: "Ubuntu";
+    color: #fff;
+}
+.container{
+    padding: 3% 15% 7%;
+}
+.navbar-nav{
+    margin-left: auto;
+}
+nav{
+    font-size: 1.5rem;    
+    padding-bottom: 4.5rem;
+}
+a.navbar-brand{
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: "Ubuntu";
+}
+p.h1 {
+    color: white;
+    font-size: 4.5rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+.title-image{
+    position: absolute;
+    transform: rotate(25deg);   
+}
+
+
+
+/*                                                  -features-section */
+#features{
+    position: relative;
+    background-color: #fff;
+    padding: 7% 15%;
+}
+.box-features{
+    text-align: center;   
+}
+i.icon{
+    padding-bottom: 4.5%;
+    color: #e23952;
+    transition: .3s;
+}
+i.icon:hover{
+    color: #ff4c68;
+}
+#testimonials{
+    background-color: #ff4c68;
+    text-align: center;
+}
+.testimonial-image{
+    margin: 20px;
+    border-radius: 50%;
+    width: 7%;
+}
+p.h2 {
+    color: #fff;
+    font-size: 3rem;
+    margin-bottom: -90px;
+    padding: 7% 15%;
+}
+/*                                                  --press-section */
+
+#press{
+    background-color: #ff4c68;
+    text-align: center;
+}
+.press-img{
+    width: 14%; 
+    margin-top: 200px;
+    margin-bottom: 30px;   
+}
+
+
+/*                                                  pricing-section */
+#pricing{
+    padding: 7%;
+    text-align: center;
+}
+.card{
+    margin: 20px;
+}
+
+
+/*                                               Call-to-action-section */
+
+#cta{
+    text-align: center;
+    background-color: #ff4c68;
+    padding: 7% 15%;
+}
+p.h3{
+    font-family: "Ubuntu";
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 100px;
+}
+button.cta-btn{
+    margin: 20px;
+}
+
+/*                          footer */
+footer{
+    text-align: center;
+    padding: 40px;
+}
+.icon-footer{
+    color: black;
+    margin: 0 5px 30px;
+    transition: .2s linear;
+}
+.icon-footer:hover{
+    cursor: pointer;
+    opacity: .8;
+    transform: scale(1.4);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------------------------mobile */
+@media (max-width: 1180px) {
+    #title{
+        text-align: center;
+    }
+    p.h1 {
+        font-size: 55px;
+    }
+    .title-image {
+        width: 100%;
+        position: static;
+        transform: rotate(0);
+    }
+}
+@media (max-width: 991px) {
+    #title{
+        text-align: center;
+    }
+    
+    p.h2{
+        font-size: 20px;
+        margin-bottom: 1px;
+    }
+    p.h3{
+        font-size: 40px;
+    }
+    img.press-img{
+        margin-top: 20px;
+    }
+}
